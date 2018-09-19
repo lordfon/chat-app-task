@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ChatAppTask</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <body>
+    <div class="chat-container col-md-4">
+      <div class="chat-window col-md-12">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+      <label class="col-md-4">Name:</label><input class="col-md-8" type="text" id="name">
+      <label class="col-md-4">Message:</label><input class="col-md-8" type="text" id="message">
+      <button id="btn" class="btn btn-danger btn-block">Send</button>
+    </div>
+    <script src="/chat.js"></script>
+  </body>
+</html>

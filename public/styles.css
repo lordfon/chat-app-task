@@ -1,0 +1,58 @@
+.chat-container {
+  display: block;
+  margin: 0 auto;
+  background: skyblue;
+  height: 650px;
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+#output {
+  overflow: auto;
+  max-height: 95%;
+}
+
+
+
+.chat-window {
+  position: relative;
+  top: 10px;
+  display: block;
+  margin: 10px auto;
+  height: 75%;
+  width: 95%;
+  background: white;
+  border-radius: 15px;
+}
+
+label {
+  padding: 5px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#name {
+  display: inline-block;
+  position: relative;
+  margin: 7px auto;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+  width: 70%;
+}
+
+#message {
+  display: inline-block;
+  position: relative;
+  margin: 7px auto;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+#btn {
+  position: relative;
+  bottom: 0px;
+}
